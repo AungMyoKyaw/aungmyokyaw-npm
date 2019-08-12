@@ -1,0 +1,47 @@
+{
+  "name": "aungmyokyaw",
+  "version": "1.0.0",
+  "description": "Aung Myo Kyaw",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*\"",
+    "lint": "eslint \"**/*\"",
+    "lint:fix": "eslint \"**/*\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "demo": "node src/index"
+  },
+  "files": [
+    "src"
+  ],
+  "bin": {
+    "aungmyokyaw": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AungMyoKyaw/aungmyokyaw.git"
+  },
+  "keywords": [
+    "Aung Myo Kyaw",
+    "Aung",
+    "Myo",
+    "Kyaw"
+  ],
+  "author": "Aung Myo Kyaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AungMyoKyaw/aungmyokyaw/issues"
+  },
+  "homepage": "https://github.com/AungMyoKyaw/aungmyokyaw#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "import-jsx": "^3.0.0",
+    "ink": "^2.3.0",
+    "ink-big-text": "^1.0.1",
+    "ink-link": "^1.0.0",
+    "react": "^16.9.0"
+  }
+}
