@@ -5,34 +5,7 @@ const BigText = require('ink-big-text');
 const Link = require('ink-link');
 
 const { Component } = React;
-const { render, Color, Box } = Ink;
-
-const nameCardConfig = {
-  name: 'Aung Myo Kyaw',
-  about: 'nothing',
-  items: [
-    {
-      label: 'Website',
-      url: 'https://www.aungmyokyaw.com/',
-    },
-    {
-      label: 'Twitter',
-      url: 'https://twitter.com/aung_myo_kyaw',
-    },
-    {
-      label: 'Github',
-      url: 'https://github.com/AungMyoKyaw',
-    },
-    {
-      label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/aungmyokyaw/',
-    },
-    {
-      label: 'Blog',
-      url: 'https://blog.aungmyokyaw.com/',
-    },
-  ],
-};
+const { Color, Box } = Ink;
 
 class NameCard extends Component {
   constructor() {
@@ -77,10 +50,4 @@ NameCard.propTypes = {
   items: PropTypes.array.isRequired,
 };
 
-render(
-  <NameCard
-    name={nameCardConfig.name}
-    about={nameCardConfig.about}
-    items={nameCardConfig.items}
-  />
-);
+module.exports = NameCard;
