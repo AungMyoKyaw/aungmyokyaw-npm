@@ -38,11 +38,6 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "import-jsx": "^3.0.0",
-    "ink": "^2.3.0",
-    "ink-big-text": "^1.0.1",
-    "ink-link": "^1.0.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0"
+    "namecard": "^1.0.0"
   }
 }
